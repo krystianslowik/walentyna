@@ -50,7 +50,6 @@ function App() {
 
   const handleYes = () => {
     const nextStep = currentStep + 1;
-    console.log("Next step:", nextStep); // Debugging line
     if (nextStep < questions.length) {
       setCurrentStep(nextStep);
     } else {
